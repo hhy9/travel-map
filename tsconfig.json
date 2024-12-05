@@ -8,7 +8,7 @@
     "noEmit": true,
     "esModuleInterop": true,
     "module": "esnext",
-    "moduleResolution": "bundler",
+    "moduleResolution": "node", // typescript가 node.js의 모듈 해석 방식을 사용
     "resolveJsonModule": true,
     "isolatedModules": true,
     "jsx": "preserve",
